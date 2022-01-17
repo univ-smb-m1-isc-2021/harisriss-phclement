@@ -8,7 +8,7 @@ public class TestJoueur {
     @Test
     public void TestCreateJoueurName() {
         Joueur j = new Joueur("Haris");
-        assertEquals("Haris", j.getNom());
+        assertEquals("Haris", j.getPrenom());
     }
 
     @Test
