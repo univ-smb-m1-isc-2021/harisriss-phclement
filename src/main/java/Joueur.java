@@ -11,7 +11,6 @@ public class Joueur {
     private ArrayList<CaseAchetable> proprietes;
     private ArrayList<Quartier> mesQuartiers;
 
-
     public Joueur(String prenom, String nom, int argent, Partie partie, Kase position) {
         this.prenom = prenom;
         this.nom = nom;
@@ -176,5 +175,9 @@ public class Joueur {
 
     public String getPrenom() {
         return this.prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
     }
 }
