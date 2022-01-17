@@ -174,7 +174,7 @@ public class Joueur {
         return this.position;
     }
 
-    public Object getNom() {
+    public String getPrenom() {
         return this.prenom;
     }
 }
